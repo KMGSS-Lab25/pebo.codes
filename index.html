@@ -50,4 +50,14 @@
 		<video id="background-video" playsinline="playsinline" autoplay="autoplay" loop="loop">
 			<source src="vid.mp4" type="video/mp4">
 		</video>
-
+<div class="flex flex-col items-center justify-start h-screen">
+			<div id="main-box" class="profile-box flex flex-col items-center relative rounded-lg pb-3">
+				<span id="mute-button" class="video-icon top-4 left-4 fas fa-volume-up glow-white"
+					data-tooltip="Mute"></span>
+				<span id="pause-button" class="video-icon top-4 right-4 pl-2 fas fa-pause glow-white"
+					data-tooltip="Pause"></span>
+				<div class="top-1/2 transform -translate-y-1/2">
+					<div class="profile-pic-container w-40 h-40 rounded-full overflow-hidden">
+						<img src="https://avatars.githubusercontent.com/u/98906077?v=4" alt="Profile Picture"
+							class="w-full h-full object-cover" draggable="false">
+					</div>
